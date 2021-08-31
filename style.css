@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+    h1 {
+    float: left;
+    color:bisque;
+    text-transform: capitalize;
+  }
+  .navbar {
+    font-family: 'Rampart One', cursive;
+    text-decoration: line-through;
+    background-color: rgb(95, 180, 106);
+    padding: 20px;
+    padding-top: 20px;
+    color:rgb(223, 16, 16) ;
+    height: 40px;
+   
+  }
+
+  .adv{
+    font-size:xx-large;
+    position: absolute;
+    left: 250px;
+  }
+
+  .botton {
+    float: right;
+    padding: 10px;
+    
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(180, 178, 15);
+    cursor: pointer;
+   
+  }
+  .botton:hover {
+    background-color: red;
+    color: black;
+    letter-spacing: 1px;
+  }
+  
+  .page{
+    margin: 40px;
+    padding: 100px;
+    
+  } 
+
+  
+  .columnpage {
+    float: left;
+    width: 15%;
+    height: 30%;
+    padding: 40px 40px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(214, 145, 16);
+  
+    
+  }
+  .thanku{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+   
+  }
+  
+  .columnpage:hover {
+    cursor:pointer;
+    box-shadow: 10px 10px 20px 10px black;
+  } 
+  .card-body{
+    background-color: rgb(243, 219, 8);
+  }
+  
+  @media screen and (max-width: 805px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      
+    }
+  }
+
+  
+  .card-email {
+    color: black;
+  }
+  
